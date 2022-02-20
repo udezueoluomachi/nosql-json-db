@@ -1,0 +1,19 @@
+[
+  {
+    "tableName": "table1",
+    "columns": {
+      "column1": [
+        "hi",
+        "hi"
+      ],
+      "column2": [
+        "nice",
+        "nice"
+      ],
+      "column3": [
+        "hello",
+        "hello"
+      ]
+    }
+  }
+]

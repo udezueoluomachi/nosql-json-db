@@ -10,14 +10,13 @@ db.insertInto("table1",{
     column3 : "hello"
 });
 //tableName , columns , callback which takes the selection result as argument
-*/
 db.selectFrom("table1",["column1","column2"], {
   columns : ["column1","column2"],
   equals : ["hi","nice"]
   } , (result) => {
   console.log(result.column1,result.column2)
   //returns => ["hi"] , ["hey"]
-  });/*
+  });
 //tableName , callback which arguement is a boolean
 db.checkTable("table1" , (result) => {
   console.log(result)

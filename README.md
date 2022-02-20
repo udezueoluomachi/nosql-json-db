@@ -4,7 +4,7 @@
 
 Using this module, you can Create , Read , Update and Delete tables just like in Mysql / Mongodb
 
-You can perform **CRUD** tasks using this module asynchronously
+You can perform **CRUD** tasks asynchronously using this module
 
 <br>
 
@@ -20,7 +20,7 @@ See [Nodejs tutorial](https://google.com/search?q=Nodejs+tutorial) to learn Node
 
 ### Next
 
-Run this command your command line or terminal
+Run this command on your command line or terminal
 ```command
     npm install nosql-json-db
 ```
@@ -188,7 +188,7 @@ If the table does not exist , an error would be thrown
 
 <br>
 
-## Preview oof JSON file used as database after creating table1 and insertion has been made
+## Preview of JSON file used as database after creating table1 and insertion has been made
 
 <br>
 
@@ -197,15 +197,15 @@ If the table does not exist , an error would be thrown
         {
             "tableName": "table1",
             "columns": {
-            "column1": [
-                "hi"
-            ],
-            "column2": [
-                "hey"
-            ],
-            "column3": [
-                "hello"
-            ]
+                "column1": [
+                    "hi"
+                ],
+                "column2": [
+                    "hey"
+                ],
+                "column3": [
+                    "hello"
+                ]
             }
         }
     ]
@@ -216,7 +216,7 @@ If the table does not exist , an error would be thrown
 
 <br>
 
-Most times, when trying to perform **CRUD** actions on a table, if the table exists or not in the database an error would thrown
+Most times, when trying to perform **CRUD** actions on a table, if the table exists or not in the database an error would thrown depending on the type of action
 
 To handle this , the **Nosqljsondb()** object has a method for checking for the existence of tables  called **checkTable()**
 
@@ -307,7 +307,7 @@ The **selectFrom()** method takes 4 necessary arguements
 
     It is only useful when you want to select items that match a certain value. It has two properties namely _columns_ and _equals_ whose values are arrays.
     
-    The arrays must be equal in length.
+    The two arrays must be equal in length.
     
     Members of the two arrays whose indexes matches are used as the comparision pairs.
     
@@ -326,7 +326,7 @@ The **selectFrom()** method takes 4 necessary arguements
 
 <br>
 
-* The fourth / last arguement of the **selectFrom()** methodis a callback function whose parameter represents the result of the selection
+* The fourth / last arguement of the **selectFrom()** method is a callback function whose parameter represents the result of the selection
 
 
 <br>
@@ -375,7 +375,7 @@ The **selectFrom()** method takes 4 necessary arguements
 
 ### The search result
 
-The result of the selection is an object whose properties are the selected columns whose values are arrays of the search result
+The result of the selection is an object whose properties are the selected columns whose values are arrays of the search / selection result
 
 <br>
 
@@ -431,7 +431,7 @@ The **updateTable()** method takes three arguements
 
     The property value , is the value which the specified column is to be searched for
 
-* The third / last arguement is thereplacement value
+* The third / last arguement is the replacement value
 
     It is the value which the column is to be updated with where the matches are found
 
@@ -474,9 +474,9 @@ If you find any errors or bugs , please create an issue in this repository with 
 
 # Projects where this module has been used
 
-## [Amabolearn data server](https://github.com/udezueoluomachi/amabolearn-server)
+## [Amabolearn data server](https://github.com/udezueoluomachi/amabolearn-dataserver)
 
-A nodejs server for serving data to based on post requests
+A nodejs server for serving data to the client-side based on post requests
 
 <br>
 
@@ -486,7 +486,7 @@ A nodejs server for serving data to based on post requests
 
 If you like this project please give it a star
 
-You are free to fork this repository and make a pull request if you have features you want to add or if you wan to contribute to this project
+You are free to fork this repository and make a pull request if you have features you want to add or if you want to contribute to this project
 
 <br>
 
@@ -496,16 +496,18 @@ Udezue Oluomachi Chimaobi
 
 [Github profile](https://github.com/udezueoluomachi)
 
+[Twitter profile](https://twitter.com/BasilChimaobi?s=08)
+
 [Facebook profile](https://facebook.com/udezueoluomachi.chimaobi)
 
 Please do check out my github profile to see some of my other projects
 
-Also follow me on facebook if you want
+Also follow me on facebook , github and twitter. Thanks !
 
 <br>
 
-## Other
+## View project
 
-[View on NPM](https://npmjs.com/)
+[View on NPM](https://npmjs.com/package/nosql-json-db)
 
 [View on Github](https://github.com/udezueoluomachi/nosql-json-db.git)
